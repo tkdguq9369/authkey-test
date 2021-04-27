@@ -6,8 +6,11 @@
 구글 smtp도 비슷한 방법으로 수정 사용 가능합니다.
 
 사용하실때
-application.properties의 네이버 아이디, 비밀번호
+application.properties의 네이버 아이디, 비밀번호   
 MailService의 setForm, addRecipient 메서드의 매개변수를 꼭 메일주소로 수정후 사용해주시기 바랍니다.
+
+---
+
 
 수정을 해야하는 부분이 있다면 블로그에 댓글로 남겨주시면 정말 감사하겠습니다!
 
