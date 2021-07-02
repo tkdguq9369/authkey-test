@@ -4,7 +4,7 @@
 네이버 smtp를 사용하였습니다.
 
 구글 smtp도 비슷한 방법으로 수정 사용 가능합니다.
-
+ 
 사용하실때  
 application.properties의 네이버 아이디, 비밀번호   
 MailService의 setForm, addRecipient 메서드의 매개변수를 꼭 메일주소로 수정후 사용해주시기 바랍니다.  
