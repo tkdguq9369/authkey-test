@@ -36,7 +36,7 @@ public class AuthKeyPlugin {
 
 		cal.add(Calendar.MINUTE, 3);
 		authTime = sdf.format(cal.getTime());
-
+ 
 		session.setAttribute("AUTHTIME", authTime);
 		System.out.println("=====  set authTime  =====");
 	}
